@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "grandmas_house"
+version = "0.1.0"
+description = "Estate planning tool to organize inheritance and keep track of who gets what and what needs to be sold/donated/thrown away"
+authors = ["Jordan Haagenson <jdhaagenson@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8.5"
+django = "^3.2.4"
+whitenoise = "^5.2.0"
+gunicorn = "^20.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
